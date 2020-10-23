@@ -1,0 +1,42 @@
+body {
+	background-image: url(../img/background5.png);
+	background-repeat: repeat;
+}
+
+article {
+  font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+header, footer {
+	font-family: 'Krona One', Georgia, serif;
+	color: #A863A8;
+	font-size: .875em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Krona One', Georgia, serif;
+	color: #A863A8;
+	font-size: 1.125em;
+}
+
+p {
+  background-color: #FFFFFF;
+  padding: .5em;
+}
+
+a:link {
+	color: #A863A8;
+}
+a:visited {
+	color: #A863A8;
+}
+a:hover {
+	color: #F49DF5;
+}
+a:active, a:focus {
+	color: #F49DF5;
+}
+
+.menu .menu-text {
+	font-weight: normal;
+}
