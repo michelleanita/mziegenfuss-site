@@ -10,31 +10,33 @@ article {
 header, footer {
 	font-family: 'Krona One', Georgia, serif;
 	color: #A863A8;
-	font-size: .875em;
+	font-size: .75em;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Krona One', Georgia, serif;
 	color: #A863A8;
-	font-size: 1.125em;
+	font-size: .875em;
 }
 
 p {
   background-color: #FFFFFF;
   padding: .5em;
+	font-size: 1em;
+	font-weight: 300;
 }
 
 a:link {
-	color: #A863A8;
+	color: #50ADBC;
 }
 a:visited {
-	color: #A863A8;
+	color: #50ADBC;
 }
 a:hover {
-	color: #F49DF5;
+	color: #8DBD1E;
 }
 a:active, a:focus {
-	color: #F49DF5;
+	color: #8DBD1E;
 }
 
 .menu .menu-text {
