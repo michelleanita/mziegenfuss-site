@@ -3,39 +3,25 @@ body {
 	background-repeat: repeat;
 }
 
-article {
-  font-family: 'Raleway', Helvetica, sans-serif;
-}
-
-header, footer {
-	font-family: 'Krona One', Georgia, serif;
-	color: #A863A8;
-	font-size: .75em;
-}
-
-h1, h2, h3, h4, h5, h6 {
+header, footer, h1, h2, h3, h4, h5, h6 {
 	font-family: 'Krona One', Georgia, serif;
 	color: #A863A8;
 	font-size: .875em;
 }
 
 p {
-  background-color: #FFFFFF;
+  background-color: #FFF;
   padding: .5em;
+	font-family: 'Raleway', Helvetica, sans-serif;
 	font-size: 1em;
 	font-weight: 300;
+	height: 9em;
 }
 
-a:link {
+a:link, a:visited {
 	color: #50ADBC;
 }
-a:visited {
-	color: #50ADBC;
-}
-a:hover {
-	color: #8DBD1E;
-}
-a:active, a:focus {
+a:hover, a:active, a:focus {
 	color: #8DBD1E;
 }
 
