@@ -1,0 +1,67 @@
+    /* This font was created using Fontographer for Windows.  It is copyright by J. Fordyce but may be freely distributed provided it is not altered, no fee is charged for it, and this text file is included with it. Feel free to send comments to j4dice@aol.com */
+@font-face {
+    font-family: 'deutsch_gothicnormal';
+    src: url('Deutsch-webfont.eot');
+    src: url('Deutsch-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Deutsch-webfont.woff2') format('woff2'),
+         url('Deutsch-webfont.woff') format('woff'),
+         url('Deutsch-webfont.ttf') format('truetype'),
+         url('Deutsch-webfont.svg#deutsch_gothicnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: #d3d3d3;
+}
+h1{
+  text-align: center;
+  font-size: 80px;
+  letter-spacing: 3px;
+  font-family: 'deutsch_gothicnormal', georgia;
+  padding-bottom: 20px;
+}
+h2{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-family: verdana;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+p{
+   font-family: verdana;
+   font-size: 12px;
+   line-height: 22px;
+   margin-left: 22px;
+   text-indent: -22px;
+   margin-bottom: 4px;
+   }
+strong{
+  font-family: verdana;
+  text-transform: uppercase;
+  }
+#main_container{
+  width:400px;
+  border-width:1px;
+  border-style:solid;
+  margin-top:20px;
+  margin-right:auto;
+  margin-left:auto;
+  background-color:#ffffff;
+  padding:20px;
+}
+.intro{
+   text-indent: 0px;
+   margin-left: 0px;
+   padding: 12px;
+   border-width: 1px;
+   border-style: solid;
+   background-color: #d3d3d3;
+   line-height: 24px;
+   font-size: 14px;
+   }
