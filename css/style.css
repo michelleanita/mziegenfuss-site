@@ -1,16 +1,22 @@
 body {
-	background-image: url(../img/background5.png);
+	background-image: url(../img/bg.png);
 	background-repeat: repeat;
 }
 
-header, footer, h1, h2, h3, h4, h5, h6 {
+header, footer {
 	font-family: 'Krona One', Georgia, serif;
 	color: #A863A8;
 	font-size: .75em;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Krona One', Georgia, serif;
+	color: #A863A8;
+	font-size: 1em;
+}
+
 p {
-  background-color: #FFF;
+  background-color: rgba(0,0,0,0.0);
   padding: .5em;
 	font-family: 'Raleway', Helvetica, sans-serif;
 	font-size: 1em;
@@ -19,12 +25,24 @@ p {
 }
 
 a:link, a:visited {
-	color: #50ADBC;
+	color: #24656F;
 }
 a:hover, a:active, a:focus {
-	color: #8DBD1E;
+	color: #FFBDFF;
 }
 
-.menu .menu-text {
-	font-weight: normal;
+.menu .button, .menu a {
+  	line-height: 1;
+    text-decoration: none;
+    display: block;
+    padding: .25rem .35rem;
+		font-weight: normal;
+}
+
+.top-bar, .top-bar ul {
+    background-color: rgba(0,0,0,0.0);
+}
+
+.menu-text {
+	font-size: .5em;
 }
