@@ -31,6 +31,7 @@ p {
 	font-size: 1em;
 	font-weight: 300;
 	margin-top: 1em;
+	max-width: 858px;
 }
 
 a:link, a:visited {
@@ -69,9 +70,11 @@ a:hover, a:active, a:focus {
 	overflow: auto;
 }
 
-.thumbnail {
-	    border-style: none;
+.thumbnail, .orbit-slide {
+	border: solid 4px rgba(265,265,265,0.5);
+  border-radius: 0;
 			}
+
 .grid-x {
 	padding-top: 3.0rem;
 }
