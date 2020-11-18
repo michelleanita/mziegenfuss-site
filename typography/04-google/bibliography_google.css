@@ -34,7 +34,8 @@ strong{
   width:400px;
   border-width:1px;
   border-style:solid;
-  margin-top:20px;
+  margin-top:50px;
+  margin-bottom: 50px;
   margin-right:auto;
   margin-left:auto;
   background-color:#ffffff;
@@ -47,4 +48,27 @@ strong{
    border-width: 1px;
    border-style: solid;
    background-color: #d3d3d3;
+   }
+   .align-right {
+     text-align: right;
+     padding: 2em 2em 2em 2em;
+   }
+   .menu {
+     padding: 2em 2em 2em 2em;
+     text-align: right;
+   }
+   .top-menu {
+
+   }
+   li {
+     display: inline-block;
+     margin: 0 .5em;
+   }
+
+   a:link, a:visited {
+   	color: #000;
+     text-decoration: none;
+   }
+   a:hover, a:active, a:focus {
+   	color: #FFF;
    }
