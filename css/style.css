@@ -21,6 +21,13 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 1em;
 	padding-bottom: .5em;
 }
+
+h1 {
+	text-align: center;
+	font-size: 1.5em;
+	padding-bottom: 2em;
+	color: #24656F;
+}
 h4 {
 	padding-top: 2.5em;
 }
@@ -73,10 +80,10 @@ a:hover, a:active, a:focus {
 .thumbnail, .orbit-slide {
 	border: solid 4px rgba(265,265,265,0.5);
   border-radius: 0;
-			}
+}
 
 .grid-x {
-	padding-top: 3.0rem;
+	padding-top: 2.0rem;
 }
 
 .projects {
@@ -84,4 +91,10 @@ a:hover, a:active, a:focus {
 	color: #A863A8;
 	font-size: .85em;
 	line-height: 2em;
+	list-style: none;
+}
+
+.arrow {
+	padding-bottom: 2.0rem;
+	max-width: 200px;
 }
