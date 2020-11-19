@@ -8,13 +8,16 @@ header, footer {
 	color: #A863A8;
 	font-size: .75em;
 }
+
 header {
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
+
 footer {
 	padding-top: 1.5em;
 }
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Krona One', Georgia, serif;
 	color: #A863A8;
