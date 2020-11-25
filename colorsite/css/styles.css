@@ -33,9 +33,11 @@ a:visited {
 a:hover { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
 	color: #22333B;
 	font-weight: bold;
+	cursor: crosshair;
 }
 a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
 	color: #22333B;
+	cursor: crosshair;
 }
 
 section {
@@ -44,7 +46,7 @@ section {
 	margin-right: auto; /* the auto value on the sides, coupled with the width, centers the layout */
 	margin-bottom: 1.875em;
 	margin-left: auto;
-	padding-top: 1.875em;
+	padding-top: 1.175em;
 	padding-bottom: 1.175em;
 	background: rgba(255, 255, 255, 0.85);
 	min-width: 850px;
@@ -68,7 +70,7 @@ nav {
 }
 
 article {
-	padding: 0 1.875em 1.875em 1.875em; /* we use a short hand version of things for margin and padding settings instead of writing padding-top: padding-right: padding-bottom: padding-left: they can be put on one command, the order of which is padding: top right bottom left. */
+	padding: 0 1.875em 0em 1.875em; /* we use a short hand version of things for margin and padding settings instead of writing padding-top: padding-right: padding-bottom: padding-left: they can be put on one command, the order of which is padding: top right bottom left. */
 }
 
 article p {
@@ -76,6 +78,12 @@ article p {
 	font-size: 0.875em;
 	color: #546775;
 	line-height: 1.5em;
+}
+
+.definition {
+	padding-top: 1.175em;
+	font-size: .875em;
+	color: #22333B;
 }
 
 table {
