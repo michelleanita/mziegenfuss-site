@@ -51,6 +51,7 @@ a:link, a:visited {
 }
 a:hover, a:active, a:focus {
 	color: #FFBDFF;
+	cursor: crosshair;
 }
 
 .button, .menu a {
