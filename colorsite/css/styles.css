@@ -4,17 +4,32 @@ body {
 	font-family: 'Poppins', Helvetica, sans-serif;
 	background-image: url(../images/background.png);
 	background-repeat: repeat;
-	margin: 0;
 	padding: 0;
 	color: #000;
+	max-width: 1450px;
+	margin: auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
 	font-family: 'Abril Fatface', Georgia, serif;
 	color: #22333B;
 	font-size: 3em;
 	margin: 0.625em 0;
 	text-align: center;
+}
+
+h3, h4, h5, h6 {
+	font-family: 'Poppins', Helvetica, sans-serif;
+	font-weight: 600;
+	color: #22333B;
+	font-size: 1em;
+	padding-top: .5em;
+}
+
+.intro {
+	padding-top: .25em;
+	font-size: .85em;
+	color: #22333B;
 }
 
 section, article, header, footer, nav {
